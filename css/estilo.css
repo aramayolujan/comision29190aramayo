@@ -95,6 +95,8 @@ body{
 
 .botonComprar:hover{
     background-color: #F8B7C4;
+    height: 41px;
+    list-style: none;
 }
 
 .botonComprarEstilo{
