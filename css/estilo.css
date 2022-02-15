@@ -76,7 +76,11 @@ body{
     width: 150px;
     height: 200px;
 }
-
+.muestraMultimedia:hover{
+    width: 170px;
+    height: 215px;
+    filter: brightness(0.7);
+}
 
 
 .descripcion{
