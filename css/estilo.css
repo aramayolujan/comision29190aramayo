@@ -11,49 +11,20 @@
 body{
     background-color: #FEF9FA;
 }
+
+
 .cabecera{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background-color: #FBD4DC
-
-}
-
-.menu{
-    list-style: none;  
+    background-color: #FBD4DC;
 }
 
 .cabeceraTexto{
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-}
-.cabeceraLi{
-    display: inline-block;  
+    color: #333;
 }
 
-
-
-.slide1 {
-    margin-top: 0px;
-    width: 100%;
-    height: 10%;
+.h1{
+    color: #FBD4DC;
+    font-family: 'Lobster', cursive;
 }
-
-
-.ahora1{
-    display: flex;
-    justify-content: space-around;
-}
-
-.ahora{
-    display: inline-block;
-    width: 200px;
-    height: 150px;
-    
-}
-
-
 .organizacionMuestra{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -110,58 +81,10 @@ body{
 
 
 
-.formularioContacto{
-    display: flex;
-    justify-content: center;
-    margin: 3rem;
-    
-}
-
-.tituloContacto {
-    color: #FBD4DC;
-    font-family: 'Lobster', cursive;
-    text-align: center; 
-    margin-top: 30px;
-    font-size: 40px;
-}
-
-.formularioContenido{
-    margin: 1rem;
-    
-    
-}
-
-.contenidoFormulario{
-    width: 100%;
-    height: 30px;
-}
-
-.formularioContenidoBoton{
-    display: flex;
-    justify-content: center;
-    margin: 1rem;
-     
-}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
 
 footer{
     width: 100%;
@@ -218,6 +141,7 @@ footer{
 }
 
 /* Medias*/
+/*
 @media only screen and (min-width: 320px) and (max-width: 576px) {
     .ahora1{
         align-items: center;
