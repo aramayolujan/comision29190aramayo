@@ -153,10 +153,21 @@ footer{
     display: flex;
     justify-content: center;
 }
-
+.logoRedes{
+    align-items: center;
+}
+.nombreRedes{
+    text-decoration: none;
+    color: #000000;
+    margin-left: 2px;
+}
 .ubicacion{
     text-align: center;
     font-size: 20px;
+}
+.direccion{
+    text-decoration: none;
+    color: #000000;
 }
 .maps{
     border: 0px;
