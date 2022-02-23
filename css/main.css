@@ -1,4 +1,60 @@
-h1 {
-  color: red;
+.muestraIndexH1 {
+  color: #FBD4DC;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.muestra {
+  display: -ms-grid;
+  display: grid;
+      grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.muestraImg {
+  text-align: center;
+}
+
+.muestraMultimedia {
+  width: 150px;
+  height: 200px;
+}
+
+.muestraMultimedia:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-transition: 2s;
+  transition: 2s;
+  filter: brightness(70%);
+  -webkit-filter: brightness(70%);
+  -moz-filter: brightness(70%);
+}
+
+.descripcion {
+  text-align: center;
+}
+
+.descripcion .botonComprar {
+  background-color: #FBD4DC;
+  color: #000000;
+  border: none;
+  height: 35px;
+  width: 80px;
+  border-radius: 10%;
+  -webkit-transition: height 2s;
+  transition: height 2s;
+}
+
+.descripcion .botonComprar:hover {
+  background-color: #F8B7C4;
+  height: 41px;
+  list-style: none;
+}
+
+.descripcion .botonComprarEstilo {
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
