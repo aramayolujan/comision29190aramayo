@@ -122,56 +122,54 @@ footer{
     padding-left: 5px;
 }
 
-.contenedorTodoFooter{
+.footerContenedorTodo{
     display: flex;
     justify-content: space-around;
 }
 
-.horarioAtencion{
+.footerHorarioAtencion{
     text-align: center;
     font-size: 20px;
 }
-.horarioTexto{
+.footerHorarioTexto{
     margin-top: 5px;
     text-align: center;
 }
 
-.mediosDePago{
+.footerMediosDePago{
     text-align: center;
     font-size: 20px;
 }
-.tarjetas i{
+.footerTarjetas i{
     margin-top: 5px;
     width: 33px;
     height: 33px;
 }
 
-.contacto{
+.footerContacto{
     text-align: center;
     font-size: 20px;
 }
-.redes{
+.footerRedes{
     margin-top: 5px;
     display: flex;
     justify-content: center;
 }
-.logoRedes{
-    align-items: center;
-}
-.nombreRedes{
+
+.footerNombreRedes{
     text-decoration: none;
     color: #000000;
     margin-left: 2px;
 }
-.ubicacion{
+.footerUbicacion{
     text-align: center;
     font-size: 20px;
 }
-.direccion{
+.footerDireccion{
     text-decoration: none;
     color: #000000;
 }
-.maps{
+.footerMaps{
     border: 0px;
     display: flex;
     text-align: center;
