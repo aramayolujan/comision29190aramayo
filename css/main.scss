@@ -1,49 +1,8 @@
-.muestraIndexH1{
-    color: #FBD4DC;
-    font-family: 'Lobster', cursive;
-    text-align: center; 
-    margin-top: 30px;
-    font-size: 40px;
-}
-.muestra{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin-top: 50px;
-    margin-bottom: 30px;
-    &Img{
-        text-align: center;
-    }
-    &Multimedia{
-        width: 150px;
-        height: 200px;
-    }
-    &Multimedia:hover{
-        transform: scale(1.1, 1.1);
-        transition: 2s;
-        filter: brightness(70%);
-        -webkit-filter: brightness(70%);
-        -moz-filter: brightness(70%); 
-    }
+@import "./partials/muestra";
+@import "./partials/footer"
 
-}
-.descripcion{
-    text-align: center;
-    .botonComprar{
-        background-color: #FBD4DC;
-        color: #000000;
-        border:none;
-        height: 35px;
-        width: 80px;
-        border-radius: 10%;
-        transition: height 2s;
-    }
-    .botonComprar:hover{
-        background-color: #F8B7C4;
-        height: 41px;
-        list-style: none;
-    }
-    
-    .botonComprarEstilo{
-        text-decoration: none;    
-    }
-}
+
+
+
+
+
