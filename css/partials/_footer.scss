@@ -1,0 +1,60 @@
+footer{
+    width: 100%;
+    background-color: #FBD4DC;
+    color: #000;
+    padding-top: 10px;
+    padding-left: 5px;
+    &ContenedorTodo{
+        display: flex;
+        justify-content: space-around;
+        &HorarioAtencion{
+            text-align: center;
+            font-size: 20px;
+        }
+        &HorarioTexto{
+            margin-top: 5px;
+            text-align: center;
+        }
+        
+        &MediosDePago{
+            text-align: center;
+            font-size: 20px;
+        }
+        &Tarjetas i{
+            margin-top: 5px;
+            width: 33px;
+            height: 33px;
+        }
+        
+        &Contacto{
+            text-align: center;
+            font-size: 20px;
+        }
+        &Redes{
+            margin-top: 5px;
+            display: flex;
+            justify-content: center;
+        }
+        &NombreRedes{
+            text-decoration: none;
+            color: #000000;
+            margin-left: 2px;
+        }
+        &Ubicacion{
+            text-align: center;
+            font-size: 20px;
+        }
+        &Direccion{
+            text-decoration: none;
+            color: #000000;
+        }
+        &Maps{
+            border: 0px;
+            display: flex;
+            text-align: center;
+            width: 150px;
+            height: 100px;;
+        }
+
+    }
+}
