@@ -25,7 +25,7 @@ body{
     color: #FBD4DC;
     font-family: 'Lobster', cursive;
 }
-.organizacionMuestra{
+.muestra{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 50px;
@@ -48,9 +48,11 @@ body{
     height: 200px;
 }
 .muestraMultimedia:hover{
-    width: 170px;
-    height: 215px;
-    filter: brightness(0.7);
+    transform: scale(1.1, 1.1);
+    transition: 2s;
+    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+    -moz-filter: brightness(70%); 
 }
 
 
