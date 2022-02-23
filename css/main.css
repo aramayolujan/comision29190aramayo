@@ -7,9 +7,8 @@
 }
 
 .muestra {
-  display: -ms-grid;
   display: grid;
-      grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   margin-top: 50px;
   margin-bottom: 30px;
 }
@@ -18,12 +17,12 @@
   text-align: center;
 }
 
-.muestraMultimedia {
+.muestraImgMultimedia {
   width: 150px;
   height: 200px;
 }
 
-.muestraMultimedia:hover {
+.muestraImgMultimedia:hover {
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
   -webkit-transition: 2s;
@@ -33,11 +32,11 @@
   -moz-filter: brightness(70%);
 }
 
-.descripcion {
+.muestraImg .descripcion {
   text-align: center;
 }
 
-.descripcion .botonComprar {
+.muestraImg .descripcion .botonComprar {
   background-color: #FBD4DC;
   color: #000000;
   border: none;
@@ -48,13 +47,91 @@
   transition: height 2s;
 }
 
-.descripcion .botonComprar:hover {
+.muestraImg .descripcion .botonComprar:hover {
   background-color: #F8B7C4;
   height: 41px;
   list-style: none;
 }
 
-.descripcion .botonComprarEstilo {
+.muestraImg .descripcion .botonComprarEstilo {
   text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  background-color: #FBD4DC;
+  color: #000;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+footerContenedorTodo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footerContenedorTodoHorarioAtencion {
+  text-align: center;
+  font-size: 20px;
+}
+
+footerContenedorTodoHorarioTexto {
+  margin-top: 5px;
+  text-align: center;
+}
+
+footerContenedorTodoMediosDePago {
+  text-align: center;
+  font-size: 20px;
+}
+
+footerContenedorTodoTarjetas i {
+  margin-top: 5px;
+  width: 33px;
+  height: 33px;
+}
+
+footerContenedorTodoContacto {
+  text-align: center;
+  font-size: 20px;
+}
+
+footerContenedorTodoRedes {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footerContenedorTodoNombreRedes {
+  text-decoration: none;
+  color: #000000;
+  margin-left: 2px;
+}
+
+footerContenedorTodoUbicacion {
+  text-align: center;
+  font-size: 20px;
+}
+
+footerContenedorTodoDireccion {
+  text-decoration: none;
+  color: #000000;
+}
+
+footerContenedorTodoMaps {
+  border: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  width: 150px;
+  height: 100px;
 }
 /*# sourceMappingURL=main.css.map */
