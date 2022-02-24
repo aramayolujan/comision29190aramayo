@@ -185,7 +185,7 @@ footer{
         text-align: center; 
         font-size: 30px;
     }
-    .organizacionMuestra{
+    .muestra{
         flex-direction: column;
         align-items: center;
         margin-top: 30px;
@@ -194,11 +194,11 @@ footer{
     .muestraMultimedia{
         margin-top: 4%;
     }
-    .contenedorTodoFooter{
+    .footerContenedorTodo{
         flex-direction: column;
         align-items: center;
     }
-    .organizacionMuestra{
+    .muestra{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr)
