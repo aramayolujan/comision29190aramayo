@@ -5,6 +5,16 @@
     margin-top: 30px;
     font-size: 40px;
 }
+.botonComprar{
+    background-color: #FBD4DC;
+    color: #000000;
+    border:none;
+    height: 35px;
+    width: 80px;
+    border-radius: 10%;
+    transition: height 2s;
+
+}
 .muestra{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -25,15 +35,7 @@
         }
         .descripcion{
             text-align: center;
-            .botonComprar{
-                background-color: #FBD4DC;
-                color: #000000;
-                border:none;
-                height: 35px;
-                width: 80px;
-                border-radius: 10%;
-                transition: height 2s;
-            }
+            @extend .botonComprar;
             .botonComprar:hover{
                 background-color: #F8B7C4;
                 height: 41px;
