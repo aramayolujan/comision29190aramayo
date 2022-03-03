@@ -60,7 +60,7 @@ body{
     text-align: center;
 }
 
-.botonComprar{
+.botonComprar, .botonComprar1, .botonComprar2, .botonComprar3, .botonComprar4{
     background-color: #FBD4DC;
     color: #000000;
     border:none;
@@ -70,11 +70,23 @@ body{
     transition: height 2s;
 }
 
-.botonComprar:hover{
+.botonComprar1{
+    background-color: green;
+}
+.botonComprar2{
+    background-color: red;
+}
+.botonComprar3{
+    background-color: yellow;
+}
+.botonComprar4{
+    background-color: blue;
+}
+.botonComprar:hover, .botonComprar1:hover, .botonComprar2:hover, .botonComprar3:hover, .botonComprar4:hover {
     background-color: #F8B7C4;
     height: 41px;
     list-style: none;
-}
+  }
 
 .botonComprarEstilo{
     text-decoration: none;    

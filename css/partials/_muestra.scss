@@ -1,3 +1,7 @@
+.h1{
+    color: #FBD4DC;
+    font-family: 'Lobster', cursive;
+}
 .muestraIndexH1{
     color: #FBD4DC;
     font-family: 'Lobster', cursive;
@@ -6,47 +10,65 @@
     font-size: 40px;
 }
 .botonComprar{
-    background-color: #FBD4DC;
     color: #000000;
     border:none;
     height: 35px;
     width: 80px;
     border-radius: 10%;
     transition: height 2s;
-
 }
 .muestra{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 50px;
     margin-bottom: 30px;
-    &Img{
-        text-align: center;
-        &Multimedia{
-            width: 150px;
-            height: 200px;
-        }
-        &Multimedia:hover{
-            transform: scale(1.1, 1.1);
-            transition: 2s;
-            filter: brightness(70%);
-            -webkit-filter: brightness(70%);
-            -moz-filter: brightness(70%); 
-        }
-        .descripcion{
-            text-align: center;
-            @extend .botonComprar;
-            .botonComprar:hover{
-                background-color: #F8B7C4;
-                height: 41px;
-                list-style: none;
-            }
-            
-            .botonComprarEstilo{
-                text-decoration: none;    
-            }
-        }
-    }
+}
+.muestraImg{
+    text-align: center;
     
+}
+@mixin sizes ($width, $height){
+    height:$height;
+    width: $width;
+}
+.muestraMultimedia{
+    @include sizes(150px,200px)
 
 }
+.muestraMultimedia:hover{
+    transform: scale(1.1, 1.1);
+    transition: 2s;
+    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+    -moz-filter: brightness(70%); 
+}
+.descripcion{
+    text-align: center;
+}
+
+$botones:(
+    1: green,
+    2: red,
+    3: yellow,
+    4: blue,
+    5: #F8B7C4,
+);
+@each $boton, $color in $botones {
+   .botonComprar#{$boton}{
+       background-color: $color;
+       @extend .botonComprar;
+   }
+   
+}
+
+.botonComprar:hover{
+   background-color: #F8B7C4;
+   height: 41px;
+   list-style: none;
+}
+
+.botonComprarEstilo{
+   text-decoration: none;    
+}
+
+
