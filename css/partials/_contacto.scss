@@ -1,0 +1,30 @@
+.formularioContacto{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    
+}
+
+.tituloContacto {
+    color: #FBD4DC;
+    font-family: 'Lobster', cursive;
+    text-align: center; 
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.formularioContenido{
+    margin: 1rem;
+}
+
+.contenidoFormulario{
+    width: 100%;
+    height: 30px;
+}
+
+.formularioContenidoBoton{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+     
+}
