@@ -33,7 +33,8 @@ body {
   font-size: 40px;
 }
 
-.botonComprar, .botonComprar1, .botonComprar2, .botonComprar3, .botonComprar4, .botonComprar5 {
+.botonComprar5 {
+  background-color: #F8B7C4;
   color: #000000;
   border: none;
   height: 35px;
@@ -46,7 +47,6 @@ body {
 .muestra {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
   margin-top: 50px;
   margin-bottom: 30px;
@@ -75,27 +75,7 @@ body {
   text-align: center;
 }
 
-.botonComprar1 {
-  background-color: green;
-}
-
-.botonComprar2 {
-  background-color: red;
-}
-
-.botonComprar3 {
-  background-color: yellow;
-}
-
-.botonComprar4 {
-  background-color: blue;
-}
-
-.botonComprar5 {
-  background-color: #F8B7C4;
-}
-
-.botonComprar:hover, .botonComprar1:hover, .botonComprar2:hover, .botonComprar3:hover, .botonComprar4:hover, .botonComprar5:hover {
+.botonComprar:hover {
   background-color: #F8B7C4;
   height: 41px;
   list-style: none;
@@ -103,6 +83,7 @@ body {
 
 .botonComprarEstilo {
   text-decoration: none;
+  color: black;
 }
 
 .formularioContacto {
@@ -253,9 +234,7 @@ footer {
   .muestra {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-    -ms-grid-rows: (1fr)[2];
         grid-template-rows: repeat(2, 1fr);
   }
 }
