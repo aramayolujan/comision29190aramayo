@@ -9,7 +9,8 @@
     margin-top: 30px;
     font-size: 40px;
 }
-.botonComprar{
+.botonComprar5{
+    background-color: #F8B7C4;
     color: #000000;
     border:none;
     height: 35px;
@@ -44,21 +45,6 @@
 }
 .descripcion{
     text-align: center;
-}
-
-$botones:(
-    1: green,
-    2: red,
-    3: yellow,
-    4: blue,
-    5: #F8B7C4,
-);
-@each $boton, $color in $botones {
-   .botonComprar#{$boton}{
-       background-color: $color;
-       @extend .botonComprar;
-   }
-   
 }
 
 .botonComprar:hover{
