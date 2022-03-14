@@ -25,8 +25,7 @@
     margin-bottom: 30px;
 }
 .muestraImg{
-    text-align: center;
-    
+    text-align: center; 
 }
 @mixin sizes ($width, $height){
     height:$height;
@@ -34,7 +33,6 @@
 }
 .muestraMultimedia{
     @include sizes(150px,200px)
-
 }
 .muestraMultimedia:hover{
     transform: scale(1.1, 1.1);
@@ -46,13 +44,11 @@
 .descripcion{
     text-align: center;
 }
-
 .botonComprar:hover{
    background-color: #F8B7C4;
    height: 41px;
    list-style: none;
 }
-
 .botonComprarEstilo{
    text-decoration: none;
    color: black;    
